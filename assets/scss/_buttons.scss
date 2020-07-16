@@ -1,0 +1,25 @@
+.btn-primary {
+  background-color: transparent;
+  border-color: $color-eleven;
+  color: $color-eleven;
+  border-radius: 47px;
+  font-weight: bold;
+  font-size: 19px;
+  height: 49px;
+  width: 171px;
+
+  @include media-breakpoint-up(md) {
+    margin-right: 70px;
+  }
+
+  @include media-breakpoint-up(lg) {
+    margin-right: 185px;
+  }
+
+  @include media-breakpoint-up(xl) {
+    margin-right: 50px;
+    width: 245px;
+    height: 73px;
+    font-size: 25px;
+  }
+}

@@ -1,0 +1,78 @@
+.banner {
+  background-color: $color-ten;
+  padding: 135px 0 54px;
+  position: relative;
+  text-align: center;
+  overflow: hidden;
+  width: 100vw;
+
+  @include media-breakpoint-up(md) {
+    padding-top: 225px;
+    text-align: right;
+  }
+
+  &-content {
+    margin: 0 auto -80px;
+    position: relative;
+    text-align: center;
+    width: 90%;
+
+    .subtitle {
+      width: 75%;
+      margin: 0 auto 12px;
+
+      @include media-breakpoint-up(sm) {
+        width: 81%;
+        margin-right: 0;
+      }
+    }
+
+    @include media-breakpoint-up(sm) {
+      width: 47%;
+      text-align: right;
+      margin-right: 0;
+      z-index: 1;
+    }
+
+    @include media-breakpoint-up(md) {
+      width: 35%;
+      margin-right: 70px;
+    }
+
+    @include media-breakpoint-up(lg) {
+      margin-right: 20%;
+      width: 26%;
+    }
+
+    @include media-breakpoint-up(xl) {
+      width: 48%;
+      margin-right: 4%;
+    }
+  }
+
+  &-img {
+    margin: 65px auto 57px;
+    border-radius: 50% 5%;
+    object-fit: cover;
+    display: block;
+    height: 260px;
+    width: 260px;
+
+    @include media-breakpoint-up(md) {
+      margin-top: -130px;
+      position: relative;
+      display: inline;
+      height: 355px;
+      width: 355px;
+      left: -36px;
+      z-index: 0;
+    }
+
+    @include media-breakpoint-up(xl) {
+      width: 615px;
+      height: 615px;
+      margin-top: -330px;
+      left: -19%;
+    }
+  }
+}

@@ -1,0 +1,39 @@
+@import 'bootstrap';
+@import 'variables';
+@import '../fonts/stylesheet.css';
+
+// Partials
+@import 'banner';
+
+// contents
+@import 'buttons';
+@import 'shape';
+
+body {
+  font-family: 'Muller';
+  font-weight: normal;
+  overflow-x: hidden;
+}
+
+.title {
+  color: $color-twelve;
+  line-height: 35px;
+  font-weight: 800;
+  font-size: 50px;
+
+  @include media-breakpoint-up(xl) {
+    font-size: 110px;
+    line-height: 80px;
+  }
+}
+
+.subtitle {
+  color: $color-eleven;
+  line-height: 20px;
+  font-size: 18px;
+
+  @include media-breakpoint-up(xl) {
+    font-size: 40px;
+    line-height: 42px;
+  }
+}
