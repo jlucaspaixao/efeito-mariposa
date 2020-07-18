@@ -65,6 +65,7 @@
     font-size: 15px;
     width: 218px;
     margin: 0 auto 30px;
+    color: $color-fiveteen;
 
     @include media-breakpoint-up(sm) {
       width: 300px;
@@ -89,6 +90,7 @@
     width: 218px;
     margin: auto;
     font-size: 15px;
+    color: $color-fiveteen;
 
     @include media-breakpoint-up(sm) {
       width: 300px;

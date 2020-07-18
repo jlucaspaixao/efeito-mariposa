@@ -1,0 +1,95 @@
+.welcome-detail_two {
+  width: 100vw;
+  height: auto;
+  position: relative;
+  text-align: center;
+  overflow-x: hidden;
+
+  @include media-breakpoint-up(md) {
+    background-image: url(../../images/iStock-1028407712.jpg);
+    background-size: cover;
+  }
+
+  &--bkgcolor {
+    background-color: rgba($color: $color-four, $alpha: 0.91);
+
+    @include media-breakpoint-up(md) {
+      background-color: rgba($color: $color-four, $alpha: 0.91);
+      padding-bottom: 70px;
+    }
+  }
+
+  &--img {
+    width: 261px;
+    height: 261px;
+    border-radius: 10% 50%;
+    object-fit: cover;
+    margin: 193px 0 68px;
+
+    @include media-breakpoint-up(md) {
+      margin: 155px 0 120px;
+    }
+
+    @include media-breakpoint-up(lg) {
+      width: 394px;
+      height: 394px;
+    }
+
+    @include media-breakpoint-up(xl) {
+      width: 524px;
+      height: 524px;
+    }
+  }
+
+  .detail-title {
+    position: absolute;
+    top: -95%;
+    font-size: 25px;
+    font-weight: bold;
+    color: $color-seventeen;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 290px;
+
+    @include media-breakpoint-up(md) {
+      position: relative;
+      text-align: left;
+      line-height: 36px;
+      margin: 120px 0 20px;
+      width: 100%;
+    }
+
+    @include media-breakpoint-up(lg) {
+      width: 90%;
+      top: 0;
+      margin: 120px 0 20px -20px;
+    }
+
+    @include media-breakpoint-up(xl) {
+      width: 81%;
+      margin: 150px 0 20px -53px;
+      font-size: 40px;
+      line-height: 48px;
+    }
+  }
+
+  .detail-text {
+    font-size: 15px;
+    color: $color-seventeen;
+    text-align: left;
+    width: 290px;
+    margin: 0 auto 30px;
+
+    @include media-breakpoint-up(md) {
+      width: 100%;
+    }
+
+    @include media-breakpoint-up(xl) {
+      font-size: 20px;
+    }
+
+    span {
+      font-weight: bold;
+    }
+  }
+}
