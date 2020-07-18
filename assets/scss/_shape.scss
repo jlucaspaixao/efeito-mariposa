@@ -729,3 +729,151 @@
     }
   }
 }
+
+.welcome-detail_tree {
+  .shape-welcome-20 {
+    position: absolute;
+    top: -18%;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-size: 100px;
+    font-weight: bold;
+    color: rgba($color: $color-seven, $alpha: 0.2);
+    width: 60px;
+    margin: auto;
+
+    @include media-breakpoint-up(md) {
+      right: 90%;
+      top: -11%;
+    }
+
+    @include media-breakpoint-up(xl) {
+      font-size: 200px;
+      right: 75%;
+      transform: translateX(-50%);
+      width: 120px;
+    }
+  }
+
+  .shape-welcome-24 {
+    display: none;
+
+    @include media-breakpoint-up(xl) {
+      position: absolute;
+      top: 20%;
+      left: 10.6%;
+      width: 187px;
+      height: 187px;
+      transform: translateX(-50%);
+      display: inline;
+    }
+  }
+
+  .shape-welcome-25 {
+    display: none;
+
+    @include media-breakpoint-up(xl) {
+      display: inline;
+      position: absolute;
+      top: -19%;
+      left: 14%;
+      width: 294px;
+      height: 294px;
+      transform: translateX(-50%);
+    }
+  }
+
+  .shape-welcome-26 {
+    display: none;
+
+    @include media-breakpoint-up(xl) {
+      display: inline;
+      position: absolute;
+      top: -16%;
+      left: 16%;
+      width: 99px;
+      height: 99px;
+      transform: translateX(-50%);
+    }
+  }
+
+  &--shape-img {
+    width: 246px;
+    margin: auto;
+    position: relative;
+
+    .shape-welcome-21 {
+      position: absolute;
+      bottom: 255px;
+      right: -10px;
+      width: 76px;
+      height: 76px;
+      z-index: 1;
+
+      @include media-breakpoint-up(sm) {
+        right: -20px;
+      }
+
+      @include media-breakpoint-up(md) {
+        width: 219px;
+        height: 219px;
+        right: -80px;
+        bottom: 215px;
+      }
+
+      @include media-breakpoint-up(xl) {
+        width: 194px;
+        height: 194px;
+        right: -177px;
+        bottom: 480px;
+      }
+    }
+
+    .shape-welcome-22 {
+      position: absolute;
+      bottom: 10px;
+      left: -30px;
+      width: 200px;
+      height: 200px;
+      z-index: 2;
+
+      @include media-breakpoint-up(md) {
+        width: 247px;
+        height: 247px;
+        left: -65px;
+        bottom: -10px;
+      }
+
+      @include media-breakpoint-up(xl) {
+        width: 465px;
+        height: 465px;
+        left: -200px;
+        bottom: -40px;
+      }
+    }
+
+    .shape-welcome-23 {
+      position: absolute;
+      bottom: 10px;
+      right: -10px;
+      width: 78px;
+      height: 78px;
+      z-index: 3;
+
+      @include media-breakpoint-up(md) {
+        width: 65px;
+        height: 65px;
+        bottom: 0;
+        right: -20px;
+      }
+
+      @include media-breakpoint-up(xl) {
+        width: 144px;
+        height: 144px;
+        bottom: -40px;
+        right: -180px;
+      }
+    }
+  }
+}
