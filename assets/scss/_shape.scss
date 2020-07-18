@@ -877,3 +877,319 @@
     }
   }
 }
+
+.welcome-detail_four {
+  .shape-welcome-27 {
+    width: 78px;
+    height: 78px;
+    position: absolute;
+    top: 34%;
+    left: 16%;
+    transform: translateX(-50%);
+
+    @include media-breakpoint-up(sm) {
+      top: 34%;
+      left: 30%;
+    }
+
+    @include media-breakpoint-up(md) {
+      top: 19%;
+      left: 18%;
+    }
+
+    @include media-breakpoint-up(lg) {
+      width: 146px;
+      height: 146px;
+      top: 17%;
+      left: 16%;
+    }
+
+    @include media-breakpoint-up(xl) {
+      top: 14%;
+      left: 9%;
+    }
+  }
+
+  .shape-welcome-28 {
+    width: 156px;
+    height: 156px;
+    position: absolute;
+    bottom: 3%;
+    right: 25%;
+    transform: translateX(50%);
+
+    @include media-breakpoint-up(sm) {
+      bottom: 4%;
+      right: 34%;
+    }
+
+    @include media-breakpoint-up(md) {
+      right: 28%;
+      bottom: 37%;
+    }
+
+    @include media-breakpoint-up(lg) {
+      width: 315px;
+      height: 315px;
+      right: 32%;
+      bottom: 10%;
+    }
+
+    @include media-breakpoint-up(xl) {
+      width: 465px;
+      height: 465px;
+      right: 30%;
+    }
+  }
+
+  .shape-welcome-29 {
+    width: 80px;
+    height: 80px;
+    bottom: 12%;
+    left: 19%;
+    transform: translateX(-50%);
+    position: absolute;
+    display: none;
+
+    @include media-breakpoint-up(md) {
+      display: inline;
+      bottom: 42%;
+      left: 19%;
+    }
+
+    @include media-breakpoint-up(lg) {
+      width: 148px;
+      height: 148px;
+      bottom: 19%;
+      left: 24%;
+    }
+
+    @include media-breakpoint-up(xl) {
+      width: 198px;
+      height: 198px;
+      bottom: 16%;
+      left: 19%;
+    }
+  }
+
+  .shape-welcome-30 {
+    font-size: 100px;
+    font-weight: bold;
+    color: rgba($color: $color-one, $alpha: 0.2);
+    position: absolute;
+    top: -2%;
+    left: 50%;
+    transform: translateX(-50%);
+
+    @include media-breakpoint-up(md) {
+      top: 7%;
+      left: 0;
+      right: -80%;
+      transform: translateX(50%);
+    }
+
+    @include media-breakpoint-up(lg) {
+      top: -2%;
+      right: -69%;
+      font-size: 140px;
+    }
+
+    @include media-breakpoint-up(xl) {
+      top: 6%;
+      right: -90%;
+    }
+  }
+
+  .shape-welcome-31 {
+    display: none;
+
+    @include media-breakpoint-up(md) {
+      display: inline;
+      position: absolute;
+      width: 194px;
+      height: 194px;
+      left: 70%;
+      top: 5%;
+      transform: translateX(-50%);
+    }
+
+    @include media-breakpoint-up(lg) {
+      left: 74%;
+      top: 3%;
+    }
+
+    @include media-breakpoint-up(xl) {
+      width: 254px;
+      height: 254px;
+      left: 101%;
+      top: 2%;
+    }
+  }
+
+  .shape-welcome-32 {
+    display: none;
+
+    @include media-breakpoint-up(md) {
+      display: inline;
+      position: absolute;
+      width: 117px;
+      height: 117px;
+      transform: translateX(-50%);
+      left: 77%;
+      top: 27%;
+    }
+
+    @include media-breakpoint-up(xl) {
+      width: 187px;
+      height: 187px;
+      left: 105%;
+      top: 28%;
+    }
+  }
+
+  .shape-welcome-33 {
+    display: none;
+
+    @include media-breakpoint-up(md) {
+      display: inline;
+      position: absolute;
+      width: 90px;
+      height: 90px;
+      transform: translateX(-50%);
+      left: 76%;
+      top: 22%;
+    }
+
+    @include media-breakpoint-up(xl) {
+      width: 144px;
+      height: 144px;
+      left: 103%;
+      top: 22%;
+    }
+  }
+
+  .shape-welcome-19 {
+    display: none;
+
+    @include media-breakpoint-up(md) {
+      display: inline;
+      position: absolute;
+      width: 50px;
+      height: 50px;
+      transform: translateX(-50%);
+      left: 3%;
+      top: 9%;
+    }
+
+    @include media-breakpoint-up(lg) {
+      left: 3%;
+    }
+
+    @include media-breakpoint-up(xl) {
+      width: 73px;
+      height: 73px;
+    }
+  }
+}
+
+.welcome-detail_five {
+  .shape-welcome-34 {
+    position: absolute;
+    width: 483px;
+    height: 483px;
+    top: 12%;
+    left: 20%;
+    transform: translateX(-50%);
+
+    @include media-breakpoint-up(lg) {
+      left: 26%;
+    }
+
+    @include media-breakpoint-up(xl) {
+      width: 533px;
+      height: 533px;
+      top: 8%;
+      left: 34%;
+    }
+  }
+
+  .shape-welcome-35 {
+    position: absolute;
+    width: 85px;
+    height: 85px;
+    top: 21%;
+    left: 3%;
+    transform: translateX(-50%);
+
+    @include media-breakpoint-up(lg) {
+      width: 185px;
+      height: 185px;
+      left: 2%;
+    }
+
+    @include media-breakpoint-up(xl) {
+      left: 20%;
+      top: 15%;
+    }
+  }
+
+  .shape-welcome-36 {
+    position: absolute;
+    width: 292px;
+    height: 292px;
+    top: 46%;
+    right: 28%;
+    transform: translateX(50%);
+
+    @include media-breakpoint-up(lg) {
+      right: 34%;
+    }
+
+    @include media-breakpoint-up(xl) {
+      width: 392px;
+      height: 392px;
+      top: 30%;
+      right: 36%;
+    }
+  }
+
+  .shape-welcome-37 {
+    position: absolute;
+    width: 85px;
+    height: 85px;
+    top: 70%;
+    right: 12%;
+    transform: translateX(50%);
+
+    @include media-breakpoint-up(lg) {
+      top: 74%;
+      right: 22%;
+    }
+
+    @include media-breakpoint-up(xl) {
+      width: 185px;
+      height: 185px;
+      top: 59%;
+      right: 27%;
+    }
+  }
+
+  .shape-welcome-38 {
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    top: 24%;
+    left: 20%;
+    transform: translateX(-50%);
+
+    @include media-breakpoint-up(lg) {
+      top: 27%;
+      left: 27%;
+    }
+
+    @include media-breakpoint-up(xl) {
+      top: 13%;
+      left: 37%;
+    }
+  }
+}

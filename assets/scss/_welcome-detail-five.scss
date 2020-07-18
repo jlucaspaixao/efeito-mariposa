@@ -1,0 +1,58 @@
+.welcome-detail_five {
+  position: relative;
+  overflow: hidden;
+
+  &--shape {
+    display: none;
+
+    @include media-breakpoint-up(md) {
+      display: inline;
+    }
+  }
+
+  &--content {
+    padding: 70px 0 30px;
+    text-align: center;
+    max-width: 300px;
+    margin: auto;
+
+    @include media-breakpoint-up(sm) {
+      max-width: 360px;
+    }
+
+    @include media-breakpoint-up(md) {
+      max-width: 465px;
+    }
+
+    @include media-breakpoint-up(xl) {
+      padding: 110px 0 70px;
+    }
+
+    .detail-number {
+      position: absolute;
+      top: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      font-size: 100px;
+      font-weight: bold;
+      color: rgba($color: $color-six, $alpha: 0.2);
+    }
+
+    .detail-title {
+      font-size: 25px;
+      font-weight: bold;
+      color: $color-six;
+      margin-bottom: 70px;
+    }
+
+    .detail-text {
+      font-size: 15px;
+      color: $color-fiveteen;
+      margin-bottom: 35px;
+
+      span {
+        font-weight: bold;
+      }
+    }
+  }
+}

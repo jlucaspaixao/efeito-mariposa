@@ -1,0 +1,78 @@
+.welcome-detail_four {
+  .owl-carousel {
+    margin-bottom: 103px;
+    position: relative;
+
+    @include media-breakpoint-up(xl) {
+      margin-left: 26%;
+    }
+
+    .owl-item {
+      max-width: 280px;
+    }
+
+    .owl-nav {
+      display: inline;
+      position: absolute;
+      top: 30%;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 100vw;
+      max-width: 280px;
+
+      @include media-breakpoint-up(xl) {
+        left: 0;
+      }
+
+      .prev-slide {
+        background-image: url(../../images/shape/nav-prev.svg);
+        width: 26px;
+        height: 41px;
+        background-repeat: no-repeat;
+        object-fit: cover;
+        position: absolute;
+        left: 0;
+        transform: translateX(-50%);
+
+        @include media-breakpoint-up(xl) {
+          left: 40%;
+          top: -50%;
+        }
+      }
+
+      .next-slide {
+        background-image: url(../../images/shape/nav-next.svg);
+        width: 26px;
+        height: 41px;
+        background-repeat: no-repeat;
+        object-fit: cover;
+        position: absolute;
+        right: 0;
+        transform: translateX(50%);
+
+        @include media-breakpoint-up(xl) {
+          right: 60%;
+        }
+      }
+    }
+
+    .card {
+      padding: 20px 26px 0;
+      border-radius: 19px;
+
+      &-img-top {
+        border-radius: 10px;
+      }
+
+      &-body {
+        padding: 20px 0;
+        color: $color-fiveteen;
+        font-size: 15px;
+
+        .card-title {
+          font-weight: bold;
+        }
+      }
+    }
+  }
+}
