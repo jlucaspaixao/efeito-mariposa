@@ -1,9 +1,13 @@
 @import 'bootstrap';
+@import 'owl-carousel';
 @import 'variables';
 @import '../fonts/stylesheet.css';
 
 // Partials
 @import 'banner';
+@import 'about';
+@import 'welcome';
+@import 'welcome-detail-one';
 
 // contents
 @import 'buttons';

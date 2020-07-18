@@ -1,0 +1,71 @@
+.welcome {
+  text-align: center;
+
+  .subtitle {
+    font-size: 18px;
+    color: $color-fiveteen;
+    margin-bottom: 25px;
+
+    @include media-breakpoint-up(sm) {
+      margin-bottom: 20px;
+    }
+
+    @include media-breakpoint-up(xl) {
+      font-size: 30px;
+      margin-bottom: 0;
+    }
+  }
+
+  .title {
+    font-size: 35px;
+    color: $color-fiveteen;
+    width: 275px;
+    margin: 0 auto 30px;
+
+    @include media-breakpoint-up(sm) {
+      width: 100%;
+    }
+
+    @include media-breakpoint-up(xl) {
+      font-size: 70px;
+      margin-bottom: 84px;
+    }
+  }
+
+  .owl-carousel {
+    .owl-item {
+      .welcome-icon {
+        width: 99px;
+        height: auto;
+        margin: auto;
+      }
+
+      .welcome-icon_title {
+        font-size: 15px;
+        color: $color-fiveteen;
+        margin: 15px auto;
+        width: 80%;
+      }
+    }
+
+    .owl-dots {
+      .owl-dot {
+        span {
+          background: $color-sixteen;
+        }
+
+        &:active {
+          span {
+            background: $color-fiveteen;
+          }
+        }
+      }
+
+      .active {
+        span {
+          background: $color-fiveteen;
+        }
+      }
+    }
+  }
+}

@@ -1,5 +1,6 @@
 import anime from 'animejs'
 import './jquery'
+import 'owl.carousel'
 
 anime({
   // left to right
@@ -33,4 +34,27 @@ anime({
   targets: '.shape-five',
   scale: [0, 1],
   duration: 10000,
+})
+
+$('.owl-carousel').owlCarousel({
+  margin: 10,
+  nav: false,
+  responsive: {
+    0: {
+      items: 1,
+      loop: true,
+    },
+    576: {
+      items: 2,
+      loop: true,
+    },
+    992: {
+      items: 3,
+      loop: true,
+    },
+    1200: {
+      items: 5,
+      loop: false,
+    },
+  },
 })

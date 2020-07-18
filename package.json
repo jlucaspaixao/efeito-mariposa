@@ -5,6 +5,7 @@
     "build": "parcel build index.html --public-url ./"
   },
   "devDependencies": {
+    "cssnano": "^4.1.10",
     "sass": "^1.26.10"
   },
   "dependencies": {
