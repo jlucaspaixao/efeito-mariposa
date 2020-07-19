@@ -1,0 +1,131 @@
+.footer {
+  background-color: #202841;
+  text-align: center;
+  padding-top: 42px;
+  overflow: hidden;
+
+  @include media-breakpoint-up(lg) {
+    text-align: left;
+  }
+
+  &-logo {
+    width: 360px;
+    height: auto;
+    margin: auto;
+  }
+
+  &-contact {
+    font-size: 16px;
+    color: #91aeeb;
+    margin-top: 66px;
+
+    @include media-breakpoint-up(lg) {
+      margin-top: 20px;
+    }
+
+    &_title {
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    &_tel {
+      margin-bottom: 10px;
+    }
+
+    &_email {
+      margin-bottom: 32px;
+    }
+  }
+
+  &-social {
+    font-size: 16px;
+    color: #91aeeb;
+
+    i {
+      font-size: 28px;
+      border: 1px solid #93b0ed;
+      border-radius: 50%;
+      width: 42px;
+      height: 42px;
+      padding: 6px 0;
+      margin: 19px 7px 70px;
+
+      @include media-breakpoint-up(lg) {
+        text-align: center;
+      }
+    }
+  }
+
+  &-menu {
+    display: none;
+
+    @include media-breakpoint-up(lg) {
+      display: inline;
+      margin-top: 30px;
+      font-size: 18px;
+
+      ul {
+        padding-left: 0;
+
+        li {
+          list-style: none;
+          margin-bottom: 23px;
+
+          a {
+            color: #7980a7;
+          }
+        }
+      }
+    }
+  }
+
+  .newsletter {
+    display: none;
+    color: #7980a7;
+
+    @include media-breakpoint-up(lg) {
+      display: inline-flex;
+      height: 65px;
+      align-items: flex-end;
+      font-weight: bold;
+      margin-bottom: 30px;
+    }
+
+    &-title {
+      font-size: 16px;
+      font-weight: bold;
+    }
+
+    form {
+      .form-control {
+        height: 60px;
+        margin-top: 24px;
+        background-color: transparent;
+        border: 1px solid #38406e;
+        font-size: 16px;
+        color: #7980a7;
+      }
+
+      .form-newsletter_email {
+        border-radius: 0.25em 0 0 0.25em;
+        width: 102%;
+      }
+    }
+  }
+
+  .copyright {
+    background-color: #141a38;
+    font-size: 13px;
+    color: #38406e;
+    padding: 33px 0 36px;
+
+    @include media-breakpoint-up(lg) {
+      text-align: center;
+    }
+
+    a {
+      font-weight: bold;
+      color: #38406e;
+    }
+  }
+}
