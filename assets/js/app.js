@@ -86,3 +86,28 @@ $('#owl-carousel-four').owlCarousel({
     },
   },
 })
+
+$('#owl-carousel-work').owlCarousel({
+  margin: 10,
+  nav: true,
+  loop: true,
+  center: true,
+  autoWidth: true,
+  navText: ["<div class='prev-slide'></div>", "<div class='next-slide'></div>"],
+  responsive: {
+    0: {
+      items: 1,
+    },
+    576: {
+      items: 1,
+    },
+    768: {
+      items: 3,
+    },
+    992: {
+      items: 3,
+      center: false,
+      loop: false,
+    },
+  },
+})
