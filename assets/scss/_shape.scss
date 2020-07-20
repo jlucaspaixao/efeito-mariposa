@@ -837,6 +837,7 @@
       width: 200px;
       height: 200px;
       z-index: 2;
+      opacity: 0.5;
 
       @include media-breakpoint-up(md) {
         width: 247px;
@@ -917,6 +918,7 @@
     bottom: 3%;
     right: 25%;
     transform: translateX(50%);
+    opacity: 0.5;
 
     @include media-breakpoint-up(sm) {
       bottom: 4%;
