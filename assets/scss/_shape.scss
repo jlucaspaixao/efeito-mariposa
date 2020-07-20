@@ -219,7 +219,7 @@
       width: 188px;
       height: 188px;
       position: absolute;
-      bottom: 10%;
+      bottom: 40%;
       left: 43%;
       transform: translateX(-50%);
 
@@ -234,7 +234,7 @@
       @include media-breakpoint-up(lg) {
         width: 241px;
         height: 241px;
-        bottom: -8%;
+        bottom: 8%;
         left: 68%;
       }
 
@@ -242,7 +242,7 @@
         width: 341px;
         height: 341px;
         left: 73%;
-        bottom: -40%;
+        bottom: -3%;
       }
     }
 
@@ -250,7 +250,7 @@
       width: 72px;
       height: 72px;
       position: absolute;
-      bottom: 7%;
+      bottom: 37%;
       left: 30%;
       transform: translateX(-50%);
 
@@ -266,13 +266,13 @@
         width: 94px;
         height: 94px;
         left: 53%;
-        bottom: -8%;
+        bottom: 8%;
       }
 
       @include media-breakpoint-up(xl) {
         width: 144px;
         height: 144px;
-        bottom: -43%;
+        bottom: -3%;
         left: 56%;
       }
     }
@@ -304,14 +304,14 @@
       @include media-breakpoint-up(lg) {
         width: 132px;
         height: 112px;
-        bottom: 20%;
+        bottom: 38%;
         left: 26%;
       }
 
       @include media-breakpoint-up(xl) {
         width: 232px;
         height: 212px;
-        bottom: -7%;
+        bottom: 23%;
         left: 25%;
       }
     }
@@ -336,13 +336,13 @@
         width: 207px;
         height: 227px;
         left: 17%;
-        bottom: 41%;
+        bottom: 55%;
       }
 
       @include media-breakpoint-up(xl) {
         width: 307px;
         height: 327px;
-        bottom: 30%;
+        bottom: 50%;
         left: 18%;
       }
     }
@@ -367,13 +367,13 @@
         width: 94px;
         height: 94px;
         left: 6%;
-        bottom: 40%;
+        bottom: 50%;
       }
 
       @include media-breakpoint-up(xl) {
         width: 144px;
         height: 144px;
-        bottom: 20%;
+        bottom: 40%;
         left: 17%;
       }
     }
