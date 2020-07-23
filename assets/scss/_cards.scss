@@ -2,6 +2,7 @@
   .owl-carousel {
     margin-bottom: 103px;
     position: relative;
+    display: none;
 
     @include media-breakpoint-up(xl) {
       margin-left: 26%;
