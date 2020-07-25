@@ -1180,18 +1180,18 @@
     position: absolute;
     width: 75px;
     height: 75px;
-    top: 24%;
-    left: 20%;
+    top: 9%;
+    left: 29%;
     transform: translateX(-50%);
 
     @include media-breakpoint-up(lg) {
-      top: 27%;
-      left: 27%;
+      top: 11%;
+      left: 26%;
     }
 
     @include media-breakpoint-up(xl) {
       top: 13%;
-      left: 37%;
+      left: 30%;
     }
   }
 }

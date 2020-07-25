@@ -1,0 +1,149 @@
+.navbar {
+  padding: 22px 0;
+
+  @include media-breakpoint-up(lg) {
+    max-width: 90%;
+    margin: auto;
+  }
+
+  &-brand {
+    width: 177px;
+    height: auto;
+
+    @include media-breakpoint-up(lg) {
+      width: 260px;
+    }
+
+    img {
+      width: 100%;
+      height: auto;
+      padding-left: 20px;
+      margin-bottom: 15px;
+
+      @include media-breakpoint-up(md) {
+        padding-left: 40px;
+      }
+
+      @include media-breakpoint-up(lg) {
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  &-toggler {
+    margin-right: 20px;
+    margin-bottom: 15px;
+    border-color: transparent !important;
+    color: #fff !important;
+
+    &-icon {
+      width: 33px;
+      height: 33px;
+    }
+
+    &:active,
+    &:focus {
+      border-color: transparent !important;
+      color: #fff !important;
+      outline: transparent;
+    }
+
+    @include media-breakpoint-up(md) {
+      margin-right: 40px;
+    }
+  }
+
+  &-collapse.show,
+  .collapsing {
+    background-color: #1425a0;
+
+    @include media-breakpoint-up(lg) {
+      background-color: transparent;
+    }
+  }
+
+  &-nav {
+    .nav-item {
+      position: relative;
+      text-align: center;
+
+      &:first-child {
+        margin-top: 15px;
+
+        @include media-breakpoint-up(lg) {
+          margin-top: 0;
+        }
+      }
+
+      &:last-child {
+        margin-bottom: 15px;
+
+        @include media-breakpoint-up(lg) {
+          margin-bottom: 0;
+        }
+      }
+
+      .nav-link {
+        color: #4de5c7;
+        font-size: 16px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: -9px;
+        margin-top: 5px;
+      }
+    }
+
+    .nav-item {
+      .nav-link {
+        color: #4de5c7;
+      }
+
+      &:after {
+        content: ' ';
+        width: 0;
+        height: 4px;
+        background-color: #4de5c7;
+        position: absolute;
+        bottom: 0;
+        right: 50%;
+        transform: translateX(50%);
+        border-radius: 7px;
+        transition: width 1s ease;
+      }
+
+      &:hover:after {
+        width: 30%;
+
+        @include media-breakpoint-up(md) {
+          width: 20%;
+        }
+
+        @include media-breakpoint-up(lg) {
+          width: 70%;
+        }
+      }
+    }
+
+    .nav-item.active {
+      .nav-link {
+        color: #4de5c7;
+      }
+
+      &:after {
+        width: 18px;
+      }
+
+      &:hover:after {
+        width: 30%;
+
+        @include media-breakpoint-up(md) {
+          width: 20%;
+        }
+
+        @include media-breakpoint-up(lg) {
+          width: 70%;
+        }
+      }
+    }
+  }
+}

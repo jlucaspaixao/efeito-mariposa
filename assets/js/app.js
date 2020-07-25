@@ -1,6 +1,8 @@
 import anime from 'animejs'
 import './jquery'
 import 'owl.carousel'
+import 'popper.js'
+import 'bootstrap'
 
 anime({
   // left to right
