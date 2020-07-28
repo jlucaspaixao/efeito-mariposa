@@ -15,17 +15,17 @@
   }
 
   &-contact {
-    font-size: 16px;
     color: #91aeeb;
     margin-top: 66px;
+    font-size: 16px;
 
     @include media-breakpoint-up(lg) {
       margin-top: 20px;
     }
 
     &_title {
-      font-weight: bold;
       margin-bottom: 10px;
+      font-weight: bold;
     }
 
     &_tel {
@@ -38,18 +38,18 @@
   }
 
   &-social {
+    color: $color-twenty;
     font-size: 16px;
-    color: #91aeeb;
     display: none;
 
     i {
-      font-size: 28px;
-      border: 1px solid #93b0ed;
-      border-radius: 50%;
-      width: 42px;
-      height: 42px;
-      padding: 6px 0;
+      border: 1px solid $color-eight;
       margin: 19px 7px 70px;
+      border-radius: 50%;
+      font-size: 28px;
+      padding: 6px 0;
+      height: 42px;
+      width: 42px;
 
       @include media-breakpoint-up(lg) {
         text-align: center;
@@ -61,19 +61,19 @@
     display: none;
 
     @include media-breakpoint-up(lg) {
-      display: inline;
       margin-top: 30px;
       font-size: 18px;
+      display: inline;
 
       ul {
         padding-left: 0;
 
         li {
-          list-style: none;
           margin-bottom: 23px;
+          list-style: none;
 
           a {
-            color: #7980a7;
+            color: $color-thirty;
           }
         }
       }
@@ -82,29 +82,29 @@
 
   .newsletter {
     display: none;
-    color: #7980a7;
+    color: $color-thirty;
 
     @include media-breakpoint-up(lg) {
-      display: inline-flex;
-      height: 65px;
       align-items: flex-end;
-      font-weight: bold;
+      display: inline-flex;
       margin-bottom: 30px;
+      font-weight: bold;
+      height: 65px;
     }
 
     &-title {
-      font-size: 16px;
       font-weight: bold;
+      font-size: 16px;
     }
 
     form {
       .form-control {
-        height: 60px;
-        margin-top: 24px;
         background-color: transparent;
         border: 1px solid #38406e;
-        font-size: 16px;
         color: #7980a7;
+        margin-top: 24px;
+        font-size: 16px;
+        height: 60px;
       }
 
       .form-newsletter_email {
@@ -115,18 +115,18 @@
   }
 
   .copyright {
-    background-color: #141a38;
-    font-size: 13px;
-    color: #38406e;
+    background-color: $color-fourty;
     padding: 33px 0 36px;
+    color: $colorfivety;
+    font-size: 13px;
 
     @include media-breakpoint-up(lg) {
       text-align: center;
     }
 
     a {
+      color: $colorfivety;
       font-weight: bold;
-      color: #38406e;
     }
   }
 }

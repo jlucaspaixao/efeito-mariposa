@@ -13,13 +13,13 @@
     }
 
     .owl-nav {
-      display: inline;
-      position: absolute;
-      top: 30%;
-      left: 50%;
       transform: translateX(-50%);
-      width: 100vw;
+      position: absolute;
       max-width: 280px;
+      display: inline;
+      width: 100vw;
+      left: 50%;
+      top: 30%;
 
       @include media-breakpoint-up(xl) {
         left: 0;
@@ -27,13 +27,13 @@
 
       .prev-slide {
         background-image: url(../../images/shape/nav-prev.svg);
-        width: 26px;
-        height: 41px;
         background-repeat: no-repeat;
-        object-fit: cover;
-        position: absolute;
-        left: 0;
         transform: translateX(-50%);
+        position: absolute;
+        object-fit: cover;
+        height: 41px;
+        width: 26px;
+        left: 0;
 
         @include media-breakpoint-up(xl) {
           left: 40%;
@@ -43,13 +43,13 @@
 
       .next-slide {
         background-image: url(../../images/shape/nav-next.svg);
-        width: 26px;
-        height: 41px;
         background-repeat: no-repeat;
-        object-fit: cover;
-        position: absolute;
-        right: 0;
         transform: translateX(50%);
+        position: absolute;
+        object-fit: cover;
+        height: 41px;
+        width: 26px;
+        right: 0;
 
         @include media-breakpoint-up(xl) {
           right: 60%;
@@ -66,8 +66,8 @@
       }
 
       &-body {
-        padding: 20px 0;
         color: $color-fiveteen;
+        padding: 20px 0;
         font-size: 15px;
 
         .card-title {

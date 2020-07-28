@@ -1,9 +1,14 @@
 .navbar {
-  padding: 22px 0;
+  background-color: $color-ten;
+  padding: 10px 0;
 
   @include media-breakpoint-up(lg) {
-    max-width: 90%;
+    padding: 10px 20px;
     margin: auto;
+  }
+
+  @include media-breakpoint-up(xl) {
+    padding: 10px 40px;
   }
 
   &-brand {
@@ -15,10 +20,9 @@
     }
 
     img {
-      width: 100%;
-      height: auto;
       padding-left: 20px;
-      margin-bottom: 15px;
+      height: auto;
+      width: 100%;
 
       @include media-breakpoint-up(md) {
         padding-left: 40px;
@@ -31,14 +35,13 @@
   }
 
   &-toggler {
-    margin-right: 20px;
-    margin-bottom: 15px;
     border-color: transparent !important;
     color: #fff !important;
+    margin-right: 20px;
 
     &-icon {
-      width: 33px;
       height: 33px;
+      width: 33px;
     }
 
     &:active,
@@ -55,7 +58,7 @@
 
   &-collapse.show,
   .collapsing {
-    background-color: #1425a0;
+    background-color: $color-sixty;
 
     @include media-breakpoint-up(lg) {
       background-color: transparent;
@@ -84,31 +87,31 @@
       }
 
       .nav-link {
-        color: #4de5c7;
-        font-size: 16px;
-        padding-left: 20px;
-        padding-right: 20px;
+        color: $color-twelve;
         padding-bottom: -9px;
+        padding-right: 20px;
+        padding-left: 20px;
+        font-size: 16px;
         margin-top: 5px;
       }
     }
 
     .nav-item {
       .nav-link {
-        color: #4de5c7;
+        color: $color-twelve;
       }
 
       &:after {
-        content: ' ';
-        width: 0;
-        height: 4px;
-        background-color: #4de5c7;
-        position: absolute;
-        bottom: 0;
-        right: 50%;
+        background-color: $color-twelve;
         transform: translateX(50%);
-        border-radius: 7px;
         transition: width 1s ease;
+        position: absolute;
+        border-radius: 7px;
+        content: ' ';
+        height: 4px;
+        right: 50%;
+        bottom: 0;
+        width: 0;
       }
 
       &:hover:after {
@@ -126,7 +129,7 @@
 
     .nav-item.active {
       .nav-link {
-        color: #4de5c7;
+        color: $color-twelve;
       }
 
       &:after {
